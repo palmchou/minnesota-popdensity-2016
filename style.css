@@ -1,0 +1,33 @@
+#visualization > svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+path {
+  stroke: #000;
+}
+
+g.boundary-on path{
+  stroke-opacity: 0.3;
+}
+
+g.boundary-off path{
+  stroke-opacity: 0;
+}
+
+/*.button {*/
+  /*background-color:#f2f2f2;*/
+  /*text-align:center;*/
+  /*border-radius: 5px;*/
+  /*font-size: 20px;*/
+/*}*/
+
+text {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

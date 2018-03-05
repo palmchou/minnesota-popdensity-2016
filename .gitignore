@@ -1,0 +1,4 @@
+.idea
+intermediate/*.json
+intermediate/*.svg
+intermediate/*.ndjson
